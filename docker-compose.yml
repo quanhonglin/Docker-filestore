@@ -1,0 +1,8 @@
+version: '2'
+services:
+  test:
+    build: .
+    ports:
+      - "5001:8000"
+    volumes:
+      - .etc:/etc/lili
